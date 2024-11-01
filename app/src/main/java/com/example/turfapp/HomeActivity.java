@@ -35,7 +35,6 @@ public class HomeActivity extends AppCompatActivity {
         // Initialize buttons
         addTurfButton = findViewById(R.id.addTurfBtn);
         viewProfileButton = findViewById(R.id.viewProfileButton);
-
         // Set onClick listeners for buttons
         addTurfButton.setOnClickListener(view -> {
             Intent intent = new Intent(HomeActivity.this, AddTurfActivity.class);
