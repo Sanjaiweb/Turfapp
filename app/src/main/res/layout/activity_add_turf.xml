@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Turf"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" /> <!-- Added margin for better spacing -->
+
+    <EditText
+        android:id="@+id/turfNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Turf Name" />
+
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location" />
+
+    <EditText
+        android:id="@+id/priceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:inputType="numberDecimal"
+        android:digits="0123456789." /> <!-- Limited to numbers and decimal -->
+
+    <Spinner
+        android:id="@+id/availabilitySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"/> <!-- Added margin for better spacing -->
+
+    <ImageView
+        android:id="@+id/turfImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray"
+        android:scaleType="centerCrop"
+        android:contentDescription="Image of the turf selected by the user" /> <!-- Improved description -->
+
+    <Button
+        android:id="@+id/selectImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Turf Image"
+        android:layout_marginTop="8dp" /> <!-- Added margin for spacing -->
+
+    <Button
+        android:id="@+id/addTurfButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Turf"
+        android:layout_marginTop="8dp" /> <!-- Added margin for spacing -->
+</LinearLayout>
