@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Turfapp</string>
+    <string name="app_Logo">Turfapp</string>
+    <string-array name="availability_array">
+        <item>Available</item>
+        <item>Not Available</item>
+    </string-array>
+
 </resources>
